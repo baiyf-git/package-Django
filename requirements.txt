@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+# 工程预装模块
+# 需要额外的python包，可直接在文件后面添加
+# 请确保指定的包和版本号，可通过pip安装
+
+# blueapps requirement
+Django==2.2.6
+mysqlclient==2.2.0
+python-json-logger==0.1.7
+
+# drf requirement
+djangorestframework==3.11.1
+django-rest-swagger==2.2.0
+django-filter==2.3.0
+
+#Extra
+django-mysql==3.8.1
+
+# minio
+filetype==1.0.13
+minio==7.1.7
+django-minio-backend==3.3.2
+
+numpy==1.19.5
+PyMySQL==1.0.2
+
+PyYAML==6.0
+django-versionlog==1.6.0
